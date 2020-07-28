@@ -27,7 +27,6 @@ services:
       - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
       - WORDPRESS_DB_NAME=wordpress
     volumes:
-      - ./php:/usr/local/etc/php
       - ./wordpress:/var/www/html
     networks:
       - app-network
