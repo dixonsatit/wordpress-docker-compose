@@ -1,1 +1,1 @@
-# How to deploy WordPress with Docker Compose
+# deploy WordPress with Docker Compose
